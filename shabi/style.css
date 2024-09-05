@@ -1,0 +1,162 @@
+/* /* .box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+/* } */
+/* .box1 label{ */
+    /* display: block;
+}
+.box1 input{
+    width: 500px;
+    height: 60px;
+}
+.box2 label{
+    display: block;
+}
+.box2 input{
+    width: 500px;
+    height: 60px;
+}  */ 
+  /* .head{
+    font-size: larger; */
+    /* font-family: 'Franklin Gothic Medium'; */
+    /* text-align: center;
+  }
+  .boxes{
+    background-color: blue;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .box{
+    width: 300px;
+    height: 120px;
+    background-color: blueviolet;
+    background-image: url("./logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+    margin: 10px;
+  }
+  @media only screen and (max-width: 320px){
+    .boxes{
+        background-color: aqua;
+        display: flex; */
+        /* flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+  }
+  @media only screen and (max-width: 320px){
+    .box{
+        background-color: pink;
+        width: 200px;
+    }
+  /* }
+  @media only screen and (max-width: 768px){
+    .boxes{
+        background-color: aqua;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+  }
+  @media only screen and (max-width: 768px){
+    .box{
+        background-color: pink;
+        width: 200px;
+    }
+  }
+  @media only screen and (max-width: 496px){
+    .box{
+        background-color: pink;
+        width: 100%;
+    }
+  /* } */
+
+
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  /* background-color: lightblue; */
+}
+body{
+  background-color: lightblue;
+}
+.logo{
+  color: #fff;
+}
+nav{
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #004274;
+  position: relative;
+  height: 100px;
+}
+nav ul{
+  display: flex;
+  gap: 30px;
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.manu-icon{
+  display: none;
+}
+.manu-icon i{
+  color: #fff;
+  font-size: 40px;
+}
+@media only screen and (max-width: 500px){
+  nav ul{
+    position: absolute;
+    top:100px;
+    left: 0px;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background-color: #004274;
+    gap: 0;
+  }
+  nav ul li{
+    padding: 20px;
+  }
+  .manu-icon{
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
